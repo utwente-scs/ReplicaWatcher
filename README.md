@@ -1,7 +1,7 @@
 # ReplicaWatcher
 
-Welcome to the official GitHub repository for "ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices," as presented at the Network and Distributed System Security Symposium (NDSS).
-Our work introduces ReplicaWatcher, a novel approach to anomaly detection in containerized microservices that requires no training. For more details, please visit our paper [here](https://www.ndss-symposium.org/ndss-paper/replicawatcher-training-less-anomaly-detection-in-containerized-microservices/?_sm_au_=iVVZpt77RHn4jNqr41Vp8K0W0RcLq).
+Welcome to the official GitHub repository for "ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices," as presented at the Network and Distributed System Security Symposium (NDSS) 2024.
+Our work introduces ReplicaWatcher, a novel approach to anomaly detection in containerized microservices that requires no training. For more details, please check out our paper [here](https://www.ndss-symposium.org/ndss-paper/replicawatcher-training-less-anomaly-detection-in-containerized-microservices/?_sm_au_=iVVZpt77RHn4jNqr41Vp8K0W0RcLq).
 
 ## About ReplicaWatcher
 
@@ -23,10 +23,9 @@ If you use ReplicaWatcher in your research, please consider citing our paper:
 
 ```bibtex
 @inproceedings{el2024replicawatcher,
-  title={REPLICAWATCHER: Training-less Anomaly Detection in Containerized Microservices},
+  title={{ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices}},
   author={El Khairi, Asbat and Caselli, Marco and Peter, Andreas and Continella, Andrea},
-  booktitle={Network and Distributed System Security Symposium, NDSS 2023},
+  booktitle={Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS)},
   year={2024},
-  organization={Association for Computing Machinery}
 }
-
+```
