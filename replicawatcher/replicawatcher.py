@@ -12,7 +12,7 @@ def save_results(filename, results):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python run_anomaly_detection.py <folder_path> <output_file>")
+        print("Usage: python replicawatcher.py <folder_path> <output_file>")
         sys.exit(1)
 
     folder_path = sys.argv[1]

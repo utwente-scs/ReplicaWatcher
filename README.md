@@ -1,7 +1,7 @@
 # ReplicaWatcher
 
-Welcome to the official GitHub repository for "ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices," as presented at the Network and Distributed System Security Symposium (NDSS) 2024.
-Our work introduces ReplicaWatcher, a novel approach to anomaly detection in containerized microservices that requires no training. For more details, please check out our paper [here](https://www.ndss-symposium.org/ndss-paper/replicawatcher-training-less-anomaly-detection-in-containerized-microservices/?_sm_au_=iVVZpt77RHn4jNqr41Vp8K0W0RcLq).
+Welcome to the official GitHub repository for "ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices," as presented at the **Network and Distributed System Security Symposium (NDSS) 2024**.
+Our work introduces a novel approach to anomaly detection in containerized microservices that requires no training. For more details, please check out our paper [here](https://www.ndss-symposium.org/ndss-paper/replicawatcher-training-less-anomaly-detection-in-containerized-microservices/?_sm_au_=iVVZpt77RHn4jNqr41Vp8K0W0RcLq).
 
 ## About ReplicaWatcher
 
