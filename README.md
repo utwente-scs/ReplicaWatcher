@@ -22,10 +22,11 @@ This repository is organized into three main folders:
 If you use ReplicaWatcher in your research, please consider citing our paper:
 
 ```bibtex
-@inproceedings{el2024replicawatcher,
-  title={{ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices}},
-  author={El Khairi, Asbat and Caselli, Marco and Peter, Andreas and Continella, Andrea},
-  booktitle={Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS)},
-  year={2024},
+@inproceedings{elkhairi_replicawatcher_24,
+ author = {Asbat El Khairi and Marco Caselli and Andreas Peter and Andrea Continella},
+ booktitle = {Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS)},
+ month = {February},
+ title = {ReplicaWatcher: Training-less Anomaly Detection in Containerized Microservices},
+ year = {2024}
 }
 ```
