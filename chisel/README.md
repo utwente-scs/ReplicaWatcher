@@ -9,9 +9,9 @@ This repository contains a set of Lua scripts that extend Sysdig functionality t
 ## Scripts Overview
 
 1. **cutils.lua**: Contains auxiliary utility functions.
-2. **fields.lua**: Defines key mappings for various fields used in event data collection, such as pod names and system calls.
-3. **parse.lua**: Implements `PodDataHandler` to parse event data and generate structured information for each pod.
-4. **extract.lua**: Transforms kernel events into unique feature sets.
+2. **extract.lua**: Transforms kernel events into unique feature sets.
+3. **fields.lua**: Defines key mappings for various fields used in event data collection, such as pod names and system calls.
+4. **parse.lua**: Implements `PodDataHandler` to parse event data and generate structured information for each pod.
 5. **replicawatcher.lua**: The main chisel script used to capture and process events from pod (replica) belonging to a deployment.
    
 
