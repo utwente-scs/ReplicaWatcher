@@ -58,4 +58,4 @@ class AnomalyDetection:
         for threshold in np.arange(0.1, 1.1, 0.1):
             files_with_anomalies = sum(self.process_file(f, threshold) for f in self.json_files)
             self.num_files_with_anomalies[threshold] = files_with_anomalies
-            print(f"Threshold {threshold:.1f}: {files_with_anomalies} snapshots with anomalies")
+            print(f"Threshold {threshold:.1f}: {files_with_anomalies} anomalous snapshots")

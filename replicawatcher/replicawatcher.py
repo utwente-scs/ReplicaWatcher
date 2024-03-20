@@ -1,24 +1,21 @@
 import sys
-import pickle
+import logging
 from anomalyDetection import AnomalyDetection
 
-def save_results(filename, results):
-    try:
-        with open(filename, 'wb') as file:
-            pickle.dump(results, file)
-        print("Results successfully saved.")
-    except Exception as e:
-        print(f"Error saving results: {e}")
+logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python replicawatcher.py <folder_path> <output_file>")
+def main(folder_snapshots_path):
+    try:
+        ad = AnomalyDetection(folder_snapshots_path)
+        ad.run_detection()
+    except Exception as e:
+        logging.error(f"An error occurred during anomaly detection: {e}")
         sys.exit(1)
 
-    folder_path = sys.argv[1]
-    output_file = sys.argv[2]
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        logging.error("Usage: python replicawatcher.py <folder_snapshots_path>")
+        sys.exit(1)
 
-    ad = AnomalyDetection(folder_path)
-    ad.run_detection()
-    save_results(output_file, ad.num_files_with_anomalies)
-
+    folder_snapshots_path = sys.argv[1]
+    main(folder_snapshots_path)
