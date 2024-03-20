@@ -8,7 +8,7 @@ This repository contains a set of Lua scripts that extend Sysdig functionality t
 
 ## Scripts Overview
 
-1. **cutils.lua**: Utility functions for deduplicating list items and extracting features from pod (replica) data.
+1. **cutils.lua**: Contains auxiliary utility functions.
 2. **fields.lua**: Defines key mappings for various fields used in event data collection, such as pod names and system calls.
 3. **parse.lua**: Implements `PodDataHandler` to parse event data and generate structured information for each pod.
 4. **extract.lua**: Transforms kernel events into unique feature sets.
