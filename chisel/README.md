@@ -21,7 +21,7 @@ This repository contains a set of Lua scripts that extend Sysdig functionality t
 2. Copy the scripts to the Sysdig chisel directory, typically located at `/usr/share/sysdig/chisel`:
 
     ```bash
-    sudo cp chisel/* /usr/share/sysdig/chisel
+    sudo cp chisel/* /usr/share/sysdig/chisels
     ```
 
 ## Usage
