@@ -29,5 +29,5 @@ This repository contains a set of Lua scripts that extend Sysdig functionality t
 To capture events from the replicas of a specific microservice, use the `replicawatcher` script with Sysdig. You will need to pass the name of the deployment, the name of the output file, and the duration for capturing events in seconds.
 
 ```bash
-sudo sysdig -c replicawatcher "deploymentName outputfile.json" -M duration_in_seconds
+sudo sysdig --k8s-api <server-address> -c replicawatcher "deploymentName outputfile.json" -M duration_in_seconds
 ```
